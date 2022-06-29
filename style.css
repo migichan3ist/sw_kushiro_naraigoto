@@ -1,0 +1,119 @@
+#photoarea{
+    display: flex;
+}
+
+#cameraside{
+    width: 50%;
+}
+
+#pictureside{
+    width: 50%;
+}
+
+.outputname{
+    font-size: 28px;
+    margin-left:10px;
+}
+
+.outputtext{
+    font-size: 24px;
+    margin-left:25px;
+}
+
+.inputname{
+    font-size: 28px;
+    margin-left:10px;
+}
+
+.inputtext{
+    font-size: 24px;
+    margin-left:25px;
+}
+
+.charaside{
+    padding:4px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:50%
+}
+
+.inputmainside{
+    padding:4px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.nextbutton{
+    font-size: 28px;
+    margin-top:15px;
+}
+
+#shutter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 300px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cccccc;
+    transition: 0.3s;
+}
+  
+#shutter::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+}
+  
+#shutter:hover {
+    text-decoration: none;
+    background-color: #bbbbbb;
+}
+
+#sidetitle{
+    font-size:32px;
+}
+
+#textbox{
+    padding:5px;
+    font-size:24px;
+}
+
+.nextbutton input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 300px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cccccc;
+    transition: 0.3s;
+}
+  
+.nextbutton input::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+}
+  
+.nextbutton input:hover {
+    text-decoration: none;
+    background-color: #bbbbbb;
+}
+
+#selectside{
+    padding:5px;
+    font-size:24px;
+}
